@@ -1,5 +1,9 @@
 # The MIT License (MIT)
 
+FirstStrike.css
+Copyright © Samuel Champagne
+
+Normalize.css
 Copyright © Nicolas Gallagher and Jonathan Neal
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of

@@ -5,12 +5,12 @@ html {
   /* Prevent adjustments of font size after orientation changes in iOS. */
   -webkit-text-size-adjust: none;
 
-  /* Correct the line height in all browsers. */
+  /* Opinionated: Normalize the line height in all browsers. */
   line-height: 1.15;
 }
 
 body {
-  /* Remove the margin in all browsers. */
+  /* Opinionated: Remove the margin in all browsers. */
   margin: 0;
 }
 

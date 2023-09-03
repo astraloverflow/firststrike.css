@@ -1,21 +1,16 @@
 /*! FirstStrike.css 0.1.0 | MIT License | https://FirstStrike.dev */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-
 html {
-  -webkit-text-size-adjust: none; /* 2 */
-  line-height: 1.15; /* 1 */
+  /* Prevent adjustments of font size after orientation changes in iOS. */
+  -webkit-text-size-adjust: none;
+
+  /* Correct the line height in all browsers. */
+  line-height: 1.15;
 }
 
-/**
- * Remove the margin in all browsers.
- */
-
 body {
+  /* Remove the margin in all browsers. */
   margin: 0;
 }
 

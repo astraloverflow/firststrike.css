@@ -5,7 +5,7 @@ html {
   /* Prevent adjustments of font size after orientation changes in iOS. */
   -webkit-text-size-adjust: none;
 
-  /* Opinionated: Normalize the line height in all browsers. */
+  /* Correct the line height in all browsers. */
   line-height: 1.15;
 
   /* Opinionated: Set the default font to the system UI font */

@@ -7,6 +7,12 @@ html {
 
   /* Opinionated: Normalize the line height in all browsers. */
   line-height: 1.15;
+
+  /* Opinionated: Set the default font to the system UI font */
+  font-family: system-ui, sans-serif;
+
+  /* Opinionated: Set the tab width to 4 charcaters. Mainly affects <pre> */
+  tab-size: 4;
 }
 
 body {

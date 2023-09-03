@@ -23,13 +23,27 @@ h1 {
   font-size: 2em;
 }
 
-/**
- * 1. Add the correct box sizing in Firefox.
- */
-
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
+  /*
+    Opinionated: Remove the border from <hr /> and replace it with a height of
+    1px and a background. This gives us more interesting options for styling
+    <hr />, such as gradients and images.
+
+    The default background set to `currentColor` will allow the <hr /> to match
+    the text color along with the toggle to a dark mode or some other color
+    scheme such as high contrast.
+
+    The margin is defined using calc to ensure that it will always be at least
+    1em, but can also grow beyond that if the height is set larger than that.
+
+    clamp() and max() are used here to avoid negative values and ensure a
+    minimum height of 1px.
+  */
+  --hr-height: 1px;
+  margin: clamp(1px, calc(0.5em - (var(--hr-height) / 2)), 1em) 0;
+  border: none;
+  background: currentColor;
+  height: max(var(--hr-height), 1px);
 }
 
 /**

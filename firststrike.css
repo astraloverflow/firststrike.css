@@ -20,14 +20,6 @@ body {
 }
 
 /**
- * Render the `main` element consistently in IE.
- */
-
-main {
-  display: block;
-}
-
-/**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
@@ -39,13 +31,11 @@ h1 {
 
 /**
  * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
  */
 
 hr {
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
-  overflow: visible; /* 2 */
 }
 
 /**
@@ -56,14 +46,6 @@ hr {
 pre {
   font-size: 1em; /* 2 */
   font-family: monospace, monospace; /* 1 */
-}
-
-/**
- * Remove the gray background on active links in IE 10.
- */
-
-a {
-  background-color: transparent;
 }
 
 /**
@@ -128,14 +110,6 @@ sup {
 }
 
 /**
- * Remove the border on images inside links in IE 10.
- */
-
-img {
-  border-style: none;
-}
-
-/**
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
@@ -149,16 +123,6 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   font-family: inherit; /* 1 */
-}
-
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
-
-button,
-input {
-  overflow: visible; /* 1 */
 }
 
 /**
@@ -214,19 +178,12 @@ fieldset {
 }
 
 /**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
 
 legend {
-  display: table; /* 1 */
-  box-sizing: border-box; /* 1 */
   padding: 0; /* 3 */
-  max-width: 100%; /* 1 */
-  color: inherit; /* 2 */
-  white-space: normal; /* 1 */
 }
 
 /**
@@ -235,25 +192,6 @@ legend {
 
 progress {
   vertical-align: baseline;
-}
-
-/**
- * Remove the default vertical scrollbar in IE 10+.
- */
-
-textarea {
-  overflow: auto;
-}
-
-/**
- * 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10.
- */
-
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
 }
 
 /**
@@ -307,20 +245,4 @@ details {
 
 summary {
   display: list-item;
-}
-
-/**
- * Add the correct display in IE 10+.
- */
-
-template {
-  display: none;
-}
-
-/**
- * Add the correct display in IE 10.
- */
-
-[hidden] {
-  display: none;
 }

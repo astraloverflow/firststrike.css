@@ -7,7 +7,7 @@
  */
 
 html {
-  -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: none; /* 2 */
   line-height: 1.15; /* 1 */
 }
 

@@ -44,14 +44,15 @@ hr {
   height: 1px;
 }
 
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
+pre,
+code,
+kbd,
+samp {
+  /* Correct the odd `em` font sizing in all browsers. */
+  font-size: 1em;
 
-pre {
-  font-size: 1em; /* 2 */
-  font-family: monospace, monospace; /* 1 */
+  /* Correct the inheritance and scaling of font size in all browsers. */
+  font-family: monospace, monospace;
 }
 
 /**
@@ -70,18 +71,6 @@ abbr[title] {
 b,
 strong {
   font-weight: bolder;
-}
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-
-code,
-kbd,
-samp {
-  font-size: 1em; /* 2 */
-  font-family: monospace, monospace; /* 1 */
 }
 
 /**

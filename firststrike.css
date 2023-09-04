@@ -38,18 +38,10 @@ hr {
     The default background set to `currentColor` will allow the <hr /> to match
     the text color along with the toggle to a dark mode or some other color
     scheme such as high contrast.
-
-    The margin is defined using calc to ensure that it will always be at least
-    1em, but can also grow beyond that if the height is set larger than that.
-
-    clamp() and max() are used here to avoid negative values and ensure a
-    minimum height of 1px.
   */
-  --hr-height: 1px;
-  margin: clamp(1px, calc(0.5em - (var(--hr-height) / 2)), 1em) 0;
   border: none;
   background: currentColor;
-  height: max(var(--hr-height), 1px);
+  height: 1px;
 }
 
 /**

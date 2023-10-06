@@ -11,7 +11,7 @@
     "firststrike.css"
   ],
   "scripts": {
-    "minify": "postcss --use cssnano -o firststrike.min.css src/firststrike.css"
+    "minify": "postcss --use cssnano --no-map -o firststrike.min.css firststrike.css"
   },
   "devDependencies": {
     "cssnano": "^6.0.1",

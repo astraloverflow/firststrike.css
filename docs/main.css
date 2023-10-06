@@ -1,0 +1,120 @@
+:root {
+  --dot-size: 1px;
+  --dot-space: 0.6rem;
+}
+
+html {
+  background:
+    linear-gradient(
+        90deg,
+        white calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center,
+    linear-gradient(
+        white calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center,
+    hsl(0deg, 0%, 75%);
+  background-size: var(--dot-space) var(--dot-space);
+}
+
+.main-width {
+  margin: auto;
+  padding: 0 0.5rem;
+  max-width: 40rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-v-center {
+  align-items: center;
+}
+
+.flex-h-center {
+  justify-content: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.block {
+  display: block;
+}
+
+.button {
+  margin: 0.6rem 0 0.5rem;
+  border-radius: 5px;
+  padding: 0.6rem 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+code {
+  font-size: 1rem;
+}
+
+.bg-gradient {
+  background: rgb(26, 57, 93);
+  background: linear-gradient(
+    160deg,
+    rgba(26, 57, 93, 1) 0%,
+    rgba(76, 98, 125, 1) 100%
+  );
+}
+
+header {
+  margin: 2rem 0 1rem;
+  border-radius: 0.8rem;
+  padding: 3rem;
+  color: white;
+}
+
+header h1 {
+  margin: 0 0 1rem;
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+header .lead {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.icon {
+  padding-right: 2rem;
+  font-size: 4.5rem;
+}
+
+@media screen and (max-width: 40rem) {
+  .icon {
+    display: none;
+  }
+}
+
+main {
+  margin: 0 1rem;
+  background-color: white;
+  padding: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.45;
+}
+
+main p {
+  margin: 0 0 0.65rem;
+}
+
+main p:last-of-type {
+  margin: 0;
+}
+
+footer {
+  padding: 1rem 0 2rem;
+  color: hsl(0deg, 0%, 60%);
+  font-size: 0.85rem;
+  text-align: center;
+}

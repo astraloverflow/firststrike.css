@@ -67,6 +67,10 @@ code {
   );
 }
 
+a {
+  color: rgb(26, 57, 93);
+}
+
 header {
   margin: 2rem 0 1rem;
   border-radius: 0.8rem;

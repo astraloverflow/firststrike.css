@@ -67,11 +67,8 @@ strong {
   font-weight: bolder;
 }
 
-/**
- * Add the correct font size in all browsers.
- */
-
 small {
+  /* Add the correct font size in all browsers. */
   font-size: 80%;
 }
 

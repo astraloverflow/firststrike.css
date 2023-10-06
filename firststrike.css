@@ -55,13 +55,10 @@ samp {
   font-family: monospace, monospace;
 }
 
-/**
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-
 abbr[title] {
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  /* Add the correct text decoration in Safari. */
+  text-decoration: underline;
+  text-decoration: underline dotted;
 }
 
 /**
